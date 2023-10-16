@@ -1,0 +1,8 @@
+mas exercise_10 {
+    agent test1_agent
+    // agent test2_agent
+
+    asl-path: "src/main/jason"
+    java-path: "src/main/cartago"
+    org-path: "src/main/moise"
+}
