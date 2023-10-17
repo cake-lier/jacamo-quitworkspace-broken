@@ -15,9 +15,13 @@
     println("After creating the third workspace, before joining it");
     joinWorkspace("thirdWorkspace", ThirdWsp);
     println("After joining the third workspace, before quitting it");
+    makeArtifact("art", "SimpleArtifact", [], _);
+    op;
     quitWorkspace(ThirdWsp);
+    op;
     println("After quitting the third workspace, before quitting the first and then joining the second");
     quitWorkspace(FirstWsp);
+    op;
     joinWorkspace("secondWorkspace", SndWsp);
     println("After joining the second workspace, before quitting it").
     quitWorkspace(SndWsp).
